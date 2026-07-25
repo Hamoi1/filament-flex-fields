@@ -30,7 +30,6 @@ phpstan.neon.dist.local
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -40,8 +39,6 @@ Thumbs.db
 
 # Logs & environment
 *.log
-.env
-.env.*
 !.env.example
 
 # npm
@@ -73,3 +70,4 @@ pnpm-debug.log*
 /DEVELOPMENT.md
 /COMPONENTS.md
 /composer.lock
+config.bat
